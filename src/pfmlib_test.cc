@@ -1,5 +1,5 @@
-#include "msr.hpp"
 #include "generic_counters.hpp"
+#include "msr.hpp"
 #include <cstdlib>
 #include <cstring>
 #include <fstream>
