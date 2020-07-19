@@ -1,0 +1,535 @@
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x14 ARITH
+Active Event: ivb 0x14 ARITH.FPU_DIV_ACTIVE 0x1
+Active Event: ivb 0x14 ARITH.FPU_DIV 0x10404
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xe6 BACLEARS
+Active Event: ivb 0xe6 BACLEARS.ANY 0x1f
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x88 BR_INST_EXEC
+Active Event: ivb 0x88 BR_INST_EXEC.NONTAKEN_COND 0x41
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_COND 0x81
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_DIRECT_JUMP 0x82
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_INDIRECT_JUMP_NON_CALL_RET 0x84
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_NEAR_RETURN 0x88
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_DIRECT_NEAR_CALL 0x90
+Active Event: ivb 0x88 BR_INST_EXEC.TAKEN_INDIRECT_NEAR_CALL 0xa0
+Active Event: ivb 0x88 BR_INST_EXEC.ALL_BRANCHES 0xff
+Active Event: ivb 0x88 BR_INST_EXEC.ALL_COND 0xc1
+Active Event: ivb 0x88 BR_INST_EXEC.ANY_COND 0xc1
+Active Event: ivb 0x88 BR_INST_EXEC.ANY_INDIRECT_JUMP_NON_CALL_RET 0xc4
+Active Event: ivb 0x88 BR_INST_EXEC.ANY_DIRECT_NEAR_CALL 0xd0
+Active Event: ivb 0x88 BR_INST_EXEC.ANY_DIRECT_JUMP 0xc2
+Active Event: ivb 0x88 BR_INST_EXEC.ANY_INDIRECT_NEAR_RET 0xc8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc4 BR_INST_RETIRED
+Active Event: ivb 0xc4 BR_INST_RETIRED.ALL_BRANCHES 0x0
+Active Event: ivb 0xc4 BR_INST_RETIRED.COND 0x1
+Active Event: ivb 0xc4 BR_INST_RETIRED.FAR_BRANCH 0x40
+Active Event: ivb 0xc4 BR_INST_RETIRED.NEAR_CALL 0x2
+Active Event: ivb 0xc4 BR_INST_RETIRED.NEAR_RETURN 0x8
+Active Event: ivb 0xc4 BR_INST_RETIRED.NEAR_TAKEN 0x20
+Active Event: ivb 0xc4 BR_INST_RETIRED.NOT_TAKEN 0x10
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x89 BR_MISP_EXEC
+Active Event: ivb 0x89 BR_MISP_EXEC.NONTAKEN_COND 0x41
+Active Event: ivb 0x89 BR_MISP_EXEC.TAKEN_COND 0x81
+Active Event: ivb 0x89 BR_MISP_EXEC.TAKEN_INDIRECT_JUMP_NON_CALL_RET 0x84
+Active Event: ivb 0x89 BR_MISP_EXEC.TAKEN_NEAR_RETURN 0x88
+Active Event: ivb 0x89 BR_MISP_EXEC.TAKEN_RETURN_NEAR 0x88
+Active Event: ivb 0x89 BR_MISP_EXEC.TAKEN_INDIRECT_NEAR_CALL 0xa0
+Active Event: ivb 0x89 BR_MISP_EXEC.ANY_COND 0xc1
+Active Event: ivb 0x89 BR_MISP_EXEC.ANY_INDIRECT_JUMP_NON_CALL_RET 0xc4
+Active Event: ivb 0x89 BR_MISP_EXEC.ALL_BRANCHES 0xff
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc5 BR_MISP_RETIRED
+Active Event: ivb 0xc5 BR_MISP_RETIRED.ALL_BRANCHES 0x0
+Active Event: ivb 0xc5 BR_MISP_RETIRED.COND 0x1
+Active Event: ivb 0xc5 BR_MISP_RETIRED.CONDITIONAL 0x1
+Active Event: ivb 0xc5 BR_MISP_RETIRED.NEAR_TAKEN 0x20
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc4 BRANCH_INSTRUCTIONS_RETIRED
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc5 MISPREDICTED_BRANCH_RETIRED
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x63 LOCK_CYCLES
+Active Event: ivb 0x63 LOCK_CYCLES.SPLIT_LOCK_UC_LOCK_DURATION 0x1
+Active Event: ivb 0x63 LOCK_CYCLES.CACHE_LOCK_DURATION 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x5c CPL_CYCLES
+Active Event: ivb 0x5c CPL_CYCLES.RING0 0x1
+Active Event: ivb 0x5c CPL_CYCLES.RING0_TRANS 0x10401
+Active Event: ivb 0x5c CPL_CYCLES.RING123 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x3c CPU_CLK_UNHALTED
+Active Event: ivb 0x3c CPU_CLK_UNHALTED.REF_P 0x1
+Active Event: ivb 0x3c CPU_CLK_UNHALTED.REF_XCLK 0x1
+Active Event: ivb 0x3c CPU_CLK_UNHALTED.REF_XCLK_ANY 0x2001
+Active Event: ivb 0x3c CPU_CLK_UNHALTED.THREAD_P 0x0
+Active Event: ivb 0x3c CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xab DSB2MITE_SWITCHES
+Active Event: ivb 0xab DSB2MITE_SWITCHES.COUNT 0x1
+Active Event: ivb 0xab DSB2MITE_SWITCHES.PENALTY_CYCLES 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xac DSB_FILL
+Active Event: ivb 0xac DSB_FILL.EXCEED_DSB_LINES 0x8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x8 DTLB_LOAD_MISSES
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.MISS_CAUSES_A_WALK 0x81
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.WALK_COMPLETED 0x82
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.WALK_DURATION 0x84
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.DEMAND_LD_MISS_CAUSES_A_WALK 0x81
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.DEMAND_LD_WALK_COMPLETED 0x82
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.DEMAND_LD_WALK_DURATION 0x84
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.STLB_HIT 0x45f
+Active Event: ivb 0x8 DTLB_LOAD_MISSES.LARGE_WALK_COMPLETED 0x88
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x49 DTLB_STORE_MISSES
+Active Event: ivb 0x49 DTLB_STORE_MISSES.MISS_CAUSES_A_WALK 0x1
+Active Event: ivb 0x49 DTLB_STORE_MISSES.CAUSES_A_WALK 0x1
+Active Event: ivb 0x49 DTLB_STORE_MISSES.STLB_HIT 0x10
+Active Event: ivb 0x49 DTLB_STORE_MISSES.WALK_COMPLETED 0x2
+Active Event: ivb 0x49 DTLB_STORE_MISSES.WALK_DURATION 0x4
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xca FP_ASSIST
+Active Event: ivb 0xca FP_ASSIST.ANY 0x1001e
+Active Event: ivb 0xca FP_ASSIST.SIMD_INPUT 0x10
+Active Event: ivb 0xca FP_ASSIST.SIMD_OUTPUT 0x8
+Active Event: ivb 0xca FP_ASSIST.X87_INPUT 0x4
+Active Event: ivb 0xca FP_ASSIST.X87_OUTPUT 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x80 ICACHE
+Active Event: ivb 0x80 ICACHE.MISSES 0x2
+Active Event: ivb 0x80 ICACHE.IFETCH_STALL 0x4
+Active Event: ivb 0x80 ICACHE.HIT 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x79 IDQ
+Active Event: ivb 0x79 IDQ.EMPTY 0x2
+Active Event: ivb 0x79 IDQ.MITE_UOPS 0x4
+Active Event: ivb 0x79 IDQ.DSB_UOPS 0x8
+Active Event: ivb 0x79 IDQ.MS_DSB_UOPS 0x10
+Active Event: ivb 0x79 IDQ.MS_MITE_UOPS 0x20
+Active Event: ivb 0x79 IDQ.MS_UOPS 0x30
+Active Event: ivb 0x79 IDQ.MITE_UOPS_CYCLES 0x10004
+Active Event: ivb 0x79 IDQ.DSB_UOPS_CYCLES 0x10008
+Active Event: ivb 0x79 IDQ.MS_DSB_UOPS_CYCLES 0x10010
+Active Event: ivb 0x79 IDQ.MS_MITE_UOPS_CYCLES 0x10020
+Active Event: ivb 0x79 IDQ.MS_UOPS_CYCLES 0x10030
+Active Event: ivb 0x79 IDQ.MS_SWITCHES 0x10430
+Active Event: ivb 0x79 IDQ.ALL_DSB_UOPS 0x18
+Active Event: ivb 0x79 IDQ.ALL_DSB_CYCLES 0x10018
+Active Event: ivb 0x79 IDQ.ALL_DSB_CYCLES_4_UOPS 0x40018
+Active Event: ivb 0x79 IDQ.ALL_MITE_UOPS 0x24
+Active Event: ivb 0x79 IDQ.ALL_MITE_CYCLES 0x10024
+Active Event: ivb 0x79 IDQ.ALL_MITE_CYCLES_4_UOPS 0x40024
+Active Event: ivb 0x79 IDQ.ANY_UOPS 0x3c
+Active Event: ivb 0x79 IDQ.MS_DSB_UOPS_OCCUR 0x10410
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CORE 0x1
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CYCLES_0_UOPS_DELIV_CORE 0x40001
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CYCLES_LE_1_UOP_DELIV_CORE 0x30001
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CYCLES_LE_2_UOP_DELIV_CORE 0x20001
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CYCLES_LE_3_UOP_DELIV_CORE 0x10001
+Active Event: ivb 0x9c IDQ_UOPS_NOT_DELIVERED.CYCLES_FE_WAS_OK 0x18001
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x87 ILD_STALL
+Active Event: ivb 0x87 ILD_STALL.LCP 0x1
+Active Event: ivb 0x87 ILD_STALL.IQ_FULL 0x4
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc0 INST_RETIRED
+Active Event: ivb 0xc0 INST_RETIRED.ANY_P 0x0
+Active Event: ivb 0xc0 INST_RETIRED.ALL 0x1
+Active Event: ivb 0xc0 INST_RETIRED.PREC_DIST 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc0 INSTRUCTION_RETIRED
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc0 INSTRUCTIONS_RETIRED
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xae ITLB
+Active Event: ivb 0xae ITLB.ITLB_FLUSH 0x1
+Active Event: ivb 0xae ITLB.FLUSH 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x85 ITLB_MISSES
+Active Event: ivb 0x85 ITLB_MISSES.MISS_CAUSES_A_WALK 0x1
+Active Event: ivb 0x85 ITLB_MISSES.CAUSES_A_WALK 0x1
+Active Event: ivb 0x85 ITLB_MISSES.STLB_HIT 0x10
+Active Event: ivb 0x85 ITLB_MISSES.WALK_COMPLETED 0x2
+Active Event: ivb 0x85 ITLB_MISSES.WALK_DURATION 0x4
+Active Event: ivb 0x85 ITLB_MISSES.LARGE_PAGE_WALK_COMPLETED 0x80
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x51 L1D
+Active Event: ivb 0x51 L1D.REPLACEMENT 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x58 MOVE_ELIMINATION
+Active Event: ivb 0x58 MOVE_ELIMINATION.INT_NOT_ELIMINATED 0x1
+Active Event: ivb 0x58 MOVE_ELIMINATION.SIMD_NOT_ELIMINATED 0x8
+Active Event: ivb 0x58 MOVE_ELIMINATION.INT_ELIMINATED 0x4
+Active Event: ivb 0x58 MOVE_ELIMINATION.SIMD_ELIMINATED 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x48 L1D_PEND_MISS
+Active Event: ivb 0x48 L1D_PEND_MISS.OCCURRENCES 0x10401
+Active Event: ivb 0x48 L1D_PEND_MISS.EDGE 0x10401
+Active Event: ivb 0x48 L1D_PEND_MISS.PENDING 0x1
+Active Event: ivb 0x48 L1D_PEND_MISS.PENDING_CYCLES 0x10001
+Active Event: ivb 0x48 L1D_PEND_MISS.PENDING_CYCLES_ANY 0x12001
+Active Event: ivb 0x48 L1D_PEND_MISS.FB_FULL 0x10002
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x28 L2_L1D_WB_RQSTS
+Active Event: ivb 0x28 L2_L1D_WB_RQSTS.HIT_E 0x4
+Active Event: ivb 0x28 L2_L1D_WB_RQSTS.HIT_M 0x8
+Active Event: ivb 0x28 L2_L1D_WB_RQSTS.MISS 0x1
+Active Event: ivb 0x28 L2_L1D_WB_RQSTS.ALL 0xf
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xf1 L2_LINES_IN
+Active Event: ivb 0xf1 L2_LINES_IN.ANY 0x7
+Active Event: ivb 0xf1 L2_LINES_IN.ALL 0x7
+Active Event: ivb 0xf1 L2_LINES_IN.E 0x4
+Active Event: ivb 0xf1 L2_LINES_IN.I 0x1
+Active Event: ivb 0xf1 L2_LINES_IN.S 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xf2 L2_LINES_OUT
+Active Event: ivb 0xf2 L2_LINES_OUT.DEMAND_CLEAN 0x1
+Active Event: ivb 0xf2 L2_LINES_OUT.DEMAND_DIRTY 0x2
+Active Event: ivb 0xf2 L2_LINES_OUT.PREFETCH_CLEAN 0x4
+Active Event: ivb 0xf2 L2_LINES_OUT.PF_CLEAN 0x4
+Active Event: ivb 0xf2 L2_LINES_OUT.PREFETCH_DIRTY 0x8
+Active Event: ivb 0xf2 L2_LINES_OUT.PF_DIRTY 0x8
+Active Event: ivb 0xf2 L2_LINES_OUT.DIRTY_ANY 0xa
+Active Event: ivb 0xf2 L2_LINES_OUT.DIRTY_ALL 0xa
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x24 L2_RQSTS
+Active Event: ivb 0x24 L2_RQSTS.ALL_CODE_RD 0x30
+Active Event: ivb 0x24 L2_RQSTS.CODE_RD_HIT 0x10
+Active Event: ivb 0x24 L2_RQSTS.CODE_RD_MISS 0x20
+Active Event: ivb 0x24 L2_RQSTS.ALL_DEMAND_DATA_RD 0x3
+Active Event: ivb 0x24 L2_RQSTS.DEMAND_DATA_RD_HIT 0x1
+Active Event: ivb 0x24 L2_RQSTS.ALL_PF 0xc0
+Active Event: ivb 0x24 L2_RQSTS.PF_HIT 0x40
+Active Event: ivb 0x24 L2_RQSTS.PF_MISS 0x80
+Active Event: ivb 0x24 L2_RQSTS.ALL_RFO 0xc
+Active Event: ivb 0x24 L2_RQSTS.RFO_HIT 0x4
+Active Event: ivb 0x24 L2_RQSTS.RFO_MISS 0x8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x27 L2_STORE_LOCK_RQSTS
+Active Event: ivb 0x27 L2_STORE_LOCK_RQSTS.MISS 0x1
+Active Event: ivb 0x27 L2_STORE_LOCK_RQSTS.HIT_M 0x8
+Active Event: ivb 0x27 L2_STORE_LOCK_RQSTS.ALL 0xf
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xf0 L2_TRANS
+Active Event: ivb 0xf0 L2_TRANS.ALL 0x80
+Active Event: ivb 0xf0 L2_TRANS.CODE_RD 0x4
+Active Event: ivb 0xf0 L2_TRANS.L1D_WB 0x10
+Active Event: ivb 0xf0 L2_TRANS.DMND_DATA_RD 0x1
+Active Event: ivb 0xf0 L2_TRANS.L2_FILL 0x20
+Active Event: ivb 0xf0 L2_TRANS.L2_WB 0x40
+Active Event: ivb 0xf0 L2_TRANS.ALL_PREFETCH 0x8
+Active Event: ivb 0xf0 L2_TRANS.ALL_PF 0x8
+Active Event: ivb 0xf0 L2_TRANS.RFO 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x412e LAST_LEVEL_CACHE_MISSES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x412e LLC_MISSES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x4f2e LAST_LEVEL_CACHE_REFERENCES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x4f2e LLC_REFERENCES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x3 LD_BLOCKS
+Active Event: ivb 0x3 LD_BLOCKS.STORE_FORWARD 0x2
+Active Event: ivb 0x3 LD_BLOCKS.NO_SR 0x8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x7 LD_BLOCKS_PARTIAL
+Active Event: ivb 0x7 LD_BLOCKS_PARTIAL.ADDRESS_ALIAS 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x4c LOAD_HIT_PRE
+Active Event: ivb 0x4c LOAD_HIT_PRE.HW_PF 0x2
+Active Event: ivb 0x4c LOAD_HIT_PRE.SW_PF 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x2e L3_LAT_CACHE
+Active Event: ivb 0x2e L3_LAT_CACHE.MISS 0x41
+Active Event: ivb 0x2e L3_LAT_CACHE.REFERENCE 0x4f
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x2e LONGEST_LAT_CACHE
+Active Event: ivb 0x2e LONGEST_LAT_CACHE.MISS 0x41
+Active Event: ivb 0x2e LONGEST_LAT_CACHE.REFERENCE 0x4f
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc3 MACHINE_CLEARS
+Active Event: ivb 0xc3 MACHINE_CLEARS.MASKMOV 0x20
+Active Event: ivb 0xc3 MACHINE_CLEARS.MEMORY_ORDERING 0x2
+Active Event: ivb 0xc3 MACHINE_CLEARS.SMC 0x4
+Active Event: ivb 0xc3 MACHINE_CLEARS.COUNT 0x10401
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd2 MEM_LOAD_UOPS_LLC_HIT_RETIRED
+Active Event: ivb 0xd2 MEM_LOAD_UOPS_LLC_HIT_RETIRED.XSNP_HIT 0x2
+Active Event: ivb 0xd2 MEM_LOAD_UOPS_LLC_HIT_RETIRED.XSNP_HITM 0x4
+Active Event: ivb 0xd2 MEM_LOAD_UOPS_LLC_HIT_RETIRED.XSNP_MISS 0x1
+Active Event: ivb 0xd2 MEM_LOAD_UOPS_LLC_HIT_RETIRED.XSNP_NONE 0x8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd2 MEM_LOAD_LLC_HIT_RETIRED
+Active Event: ivb 0xd2 MEM_LOAD_LLC_HIT_RETIRED.XSNP_HIT 0x2
+Active Event: ivb 0xd2 MEM_LOAD_LLC_HIT_RETIRED.XSNP_HITM 0x4
+Active Event: ivb 0xd2 MEM_LOAD_LLC_HIT_RETIRED.XSNP_MISS 0x1
+Active Event: ivb 0xd2 MEM_LOAD_LLC_HIT_RETIRED.XSNP_NONE 0x8
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd3 MEM_LOAD_UOPS_LLC_MISS_RETIRED
+Active Event: ivb 0xd3 MEM_LOAD_UOPS_LLC_MISS_RETIRED.LOCAL_DRAM 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.HIT_LFB 0x40
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L1_MISS 0x8
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L1_HIT 0x1
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L2_HIT 0x2
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L2_MISS 0x10
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L3_HIT 0x4
+Active Event: ivb 0xd1 MEM_LOAD_UOPS_RETIRED.L3_MISS 0x20
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.HIT_LFB 0x40
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L1_MISS 0x8
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L1_HIT 0x1
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L2_HIT 0x2
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L2_MISS 0x10
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L3_HIT 0x4
+Active Event: ivb 0xd1 MEM_LOAD_RETIRED.L3_MISS 0x20
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xcd MEM_TRANS_RETIRED
+Active Event: ivb 0xcd MEM_TRANS_RETIRED.LATENCY_ABOVE_THRESHOLD 0x1
+Active Event: ivb 0xcd MEM_TRANS_RETIRED.PRECISE_STORE 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.ALL_LOADS 0x81
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.ANY_LOADS 0x81
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.ALL_STORES 0x82
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.LOCK_LOADS 0x21
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.ANY_STORES 0x82
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.SPLIT_LOADS 0x41
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.SPLIT_STORES 0x42
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.STLB_MISS_LOADS 0x11
+Active Event: ivb 0xd0 MEM_UOPS_RETIRED.STLB_MISS_STORES 0x12
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd0 MEM_UOP_RETIRED
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.ALL_LOADS 0x81
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.ANY_LOADS 0x81
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.ALL_STORES 0x82
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.LOCK_LOADS 0x21
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.ANY_STORES 0x82
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.SPLIT_LOADS 0x41
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.SPLIT_STORES 0x42
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.STLB_MISS_LOADS 0x11
+Active Event: ivb 0xd0 MEM_UOP_RETIRED.STLB_MISS_STORES 0x12
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x5 MISALIGN_MEM_REF
+Active Event: ivb 0x5 MISALIGN_MEM_REF.LOADS 0x1
+Active Event: ivb 0x5 MISALIGN_MEM_REF.STORES 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xb0 OFFCORE_REQUESTS
+Active Event: ivb 0xb0 OFFCORE_REQUESTS.ALL_DATA_RD 0x8
+Active Event: ivb 0xb0 OFFCORE_REQUESTS.ALL_DATA_READ 0x8
+Active Event: ivb 0xb0 OFFCORE_REQUESTS.DEMAND_CODE_RD 0x2
+Active Event: ivb 0xb0 OFFCORE_REQUESTS.DEMAND_DATA_RD 0x1
+Active Event: ivb 0xb0 OFFCORE_REQUESTS.DEMAND_RFO 0x4
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD_CYCLES 0x10008
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_CODE_RD_CYCLES 0x10002
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_DATA_RD_CYCLES 0x10001
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD 0x8
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_CODE_RD 0x2
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_DATA_RD 0x1
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_DATA_RD_GE_6 0x60001
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_RFO 0x4
+Active Event: ivb 0x60 OFFCORE_REQUESTS_OUTSTANDING.DEMAND_RFO_CYCLES 0x10004
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc1 OTHER_ASSISTS
+Active Event: ivb 0xc1 OTHER_ASSISTS.AVX_TO_SSE 0x10
+Active Event: ivb 0xc1 OTHER_ASSISTS.SSE_TO_AVX 0x20
+Active Event: ivb 0xc1 OTHER_ASSISTS.AVX_STORE 0x8
+Active Event: ivb 0xc1 OTHER_ASSISTS.WB 0x80
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xa2 RESOURCE_STALLS
+Active Event: ivb 0xa2 RESOURCE_STALLS.ANY 0x1
+Active Event: ivb 0xa2 RESOURCE_STALLS.RS 0x4
+Active Event: ivb 0xa2 RESOURCE_STALLS.SB 0x8
+Active Event: ivb 0xa2 RESOURCE_STALLS.ROB 0x10
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xa3 CYCLE_ACTIVITY
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.CYCLES_L2_PENDING 0x10001
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.CYCLES_LDM_PENDING 0x20002
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.CYCLES_L1D_PENDING 0x80008
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.CYCLES_NO_EXECUTE 0x40004
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.STALLS_L2_PENDING 0x50005
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.STALLS_L1D_PENDING 0xc000c
+Active Event: ivb 0xa3 CYCLE_ACTIVITY.STALLS_LDM_PENDING 0x60006
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xcc ROB_MISC_EVENTS
+Active Event: ivb 0xcc ROB_MISC_EVENTS.LBR_INSERTS 0x20
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x5e RS_EVENTS
+Active Event: ivb 0x5e RS_EVENTS.EMPTY_CYCLES 0x1
+Active Event: ivb 0x5e RS_EVENTS.EMPTY_END 0x18401
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x5f DTLB_LOAD_ACCESS
+Active Event: ivb 0x5f DTLB_LOAD_ACCESS.STLB_HIT 0x4
+Active Event: ivb 0x5f DTLB_LOAD_ACCESS.LOAD_STLB_HIT 0x4
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x5f TLB_ACCESS
+Active Event: ivb 0x5f TLB_ACCESS.STLB_HIT 0x4
+Active Event: ivb 0x5f TLB_ACCESS.LOAD_STLB_HIT 0x4
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xbd TLB_FLUSH
+Active Event: ivb 0xbd TLB_FLUSH.DTLB_THREAD 0x1
+Active Event: ivb 0xbd TLB_FLUSH.STLB_ANY 0x20
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x3c UNHALTED_CORE_CYCLES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x300 UNHALTED_REFERENCE_CYCLES
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xb1 UOPS_EXECUTED
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE 0x2
+Active Event: ivb 0xb1 UOPS_EXECUTED.THREAD 0x1
+Active Event: ivb 0xb1 UOPS_EXECUTED.STALL_CYCLES 0x18001
+Active Event: ivb 0xb1 UOPS_EXECUTED.CYCLES_GE_1_UOP_EXEC 0x10001
+Active Event: ivb 0xb1 UOPS_EXECUTED.CYCLES_GE_2_UOPS_EXEC 0x20001
+Active Event: ivb 0xb1 UOPS_EXECUTED.CYCLES_GE_3_UOPS_EXEC 0x30001
+Active Event: ivb 0xb1 UOPS_EXECUTED.CYCLES_GE_4_UOPS_EXEC 0x40001
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE_CYCLES_GE_1 0x10002
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE_CYCLES_GE_2 0x20002
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE_CYCLES_GE_3 0x30002
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE_CYCLES_GE_4 0x40002
+Active Event: ivb 0xb1 UOPS_EXECUTED.CORE_CYCLES_NONE 0x8002
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_0 0x1
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_1 0x2
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_2 0xc
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_3 0x30
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_4 0x40
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_5 0x80
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_0_CORE 0x2001
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_1_CORE 0x2002
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_2_CORE 0x200c
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_3_CORE 0x2030
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_4_CORE 0x2040
+Active Event: ivb 0xa1 UOPS_DISPATCHED_PORT.PORT_5_CORE 0x2080
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xe UOPS_ISSUED
+Active Event: ivb 0xe UOPS_ISSUED.ANY 0x1
+Active Event: ivb 0xe UOPS_ISSUED.CORE_STALL_CYCLES 0x1a001
+Active Event: ivb 0xe UOPS_ISSUED.STALL_CYCLES 0x18001
+Active Event: ivb 0xe UOPS_ISSUED.FLAGS_MERGE 0x10
+Active Event: ivb 0xe UOPS_ISSUED.SLOW_LEA 0x20
+Active Event: ivb 0xe UOPS_ISSUED.SINGLE_MUL 0x40
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xc2 UOPS_RETIRED
+Active Event: ivb 0xc2 UOPS_RETIRED.ALL 0x1
+Active Event: ivb 0xc2 UOPS_RETIRED.ANY 0x1
+Active Event: ivb 0xc2 UOPS_RETIRED.RETIRE_SLOTS 0x2
+Active Event: ivb 0xc2 UOPS_RETIRED.STALL_CYCLES 0x18001
+Active Event: ivb 0xc2 UOPS_RETIRED.TOTAL_CYCLES 0xa8001
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x10 FP_COMP_OPS_EXE
+Active Event: ivb 0x10 FP_COMP_OPS_EXE.X87 0x1
+Active Event: ivb 0x10 FP_COMP_OPS_EXE.SSE_FP_PACKED_DOUBLE 0x10
+Active Event: ivb 0x10 FP_COMP_OPS_EXE.SSE_FP_SCALAR_SINGLE 0x20
+Active Event: ivb 0x10 FP_COMP_OPS_EXE.SSE_PACKED_SINGLE 0x40
+Active Event: ivb 0x10 FP_COMP_OPS_EXE.SSE_SCALAR_DOUBLE 0x80
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x11 SIMD_FP_256
+Active Event: ivb 0x11 SIMD_FP_256.PACKED_SINGLE 0x1
+Active Event: ivb 0x11 SIMD_FP_256.PACKED_DOUBLE 0x2
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xa8 LSD
+Active Event: ivb 0xa8 LSD.UOPS 0x1
+Active Event: ivb 0xa8 LSD.ACTIVE 0x10001
+Active Event: ivb 0xa8 LSD.CYCLES_4_UOPS 0x40001
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x4f EPT
+Active Event: ivb 0x4f EPT.WALK_CYCLES 0x10
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xbe PAGE_WALKS
+Active Event: ivb 0xbe PAGE_WALKS.LLC_MISS 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xd INT_MISC
+Active Event: ivb 0xd INT_MISC.RECOVERY_CYCLES 0x10003
+Active Event: ivb 0xd INT_MISC.RECOVERY_CYCLES_ANY 0x12003
+Active Event: ivb 0xd INT_MISC.RECOVERY_STALLS_COUNT 0x10403
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xb2 OFFCORE_REQUESTS_BUFFER
+Active Event: ivb 0xb2 OFFCORE_REQUESTS_BUFFER.SQ_FULL 0x1
+Generic Counters 8, Fixed 3
+Active Event: ivb 0xf4 SQ_MISC
+Active Event: ivb 0xf4 SQ_MISC.SPLIT_LOCK 0x10
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.DMND_DATA_RD 0x1
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.DMND_RFO 0x2
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.DMND_IFETCH 0x4
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.WB 0x8
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_DATA_RD 0x10
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_RFO 0x20
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_IFETCH 0x40
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_LLC_DATA_RD 0x80
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_LLC_RFO 0x100
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.PF_LLC_IFETCH 0x200
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.BUS_LOCKS 0x400
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.STRM_ST 0x800
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.OTHER 0x8000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.ANY_IFETCH 0x244
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.ANY_REQUEST 0x8fff
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.ANY_DATA 0x91
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.ANY_RFO 0x122
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.ANY_RESPONSE 0x10000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.NO_SUPP 0x20000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_HITM 0x40000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_HITE 0x80000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_HITS 0x100000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_HITF 0x200000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_MISS_LOCAL 0x400000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.L3_MISS 0x400000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.LLC_HITMESF 0x3c0000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_NONE 0x80000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_NOT_NEEDED 0x100000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_MISS 0x200000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_NO_FWD 0x400000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_FWD 0x800000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.HITM 0x1000000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.NON_DRAM 0x2000000000
+Active Event: ivb 0x1b7 OFFCORE_RESPONSE_0.SNP_ANY 0x3f80000000
+Generic Counters 8, Fixed 3
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.DMND_DATA_RD 0x1
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.DMND_RFO 0x2
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.DMND_IFETCH 0x4
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.WB 0x8
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_DATA_RD 0x10
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_RFO 0x20
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_IFETCH 0x40
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_LLC_DATA_RD 0x80
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_LLC_RFO 0x100
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.PF_LLC_IFETCH 0x200
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.BUS_LOCKS 0x400
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.STRM_ST 0x800
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.OTHER 0x8000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.ANY_IFETCH 0x244
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.ANY_REQUEST 0x8fff
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.ANY_DATA 0x91
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.ANY_RFO 0x122
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.ANY_RESPONSE 0x10000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.NO_SUPP 0x20000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_HITM 0x40000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_HITE 0x80000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_HITS 0x100000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_HITF 0x200000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_MISS_LOCAL 0x400000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.L3_MISS 0x400000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.LLC_HITMESF 0x3c0000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_NONE 0x80000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_NOT_NEEDED 0x100000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_MISS 0x200000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_NO_FWD 0x400000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_FWD 0x800000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.HITM 0x1000000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.NON_DRAM 0x2000000000
+Active Event: ivb 0x1bb OFFCORE_RESPONSE_1.SNP_ANY 0x3f80000000
