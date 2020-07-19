@@ -5,7 +5,7 @@
 namespace helpers {
 namespace thread {
 
-static inline auto set_cpu_affinity(std::thread& t, int cpu_id) {
+static inline auto set_cpu_affinity(std::thread &t, int cpu_id) {
   cpu_set_t cpuset;
   CPU_ZERO(&cpuset);
   CPU_SET(cpu_id, &cpuset);
